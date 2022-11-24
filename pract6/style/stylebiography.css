@@ -1,0 +1,161 @@
+.tableOfConSec{
+    display: block;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    width: 150px;
+    padding: 2px;
+    border: 2px solid black;
+    text-decoration: none;
+}
+   .tableOfConSec:link{
+     color: lightgray;
+     text-decoration: none;
+     background-color: blue;
+     border: 1px solid black;
+   }
+    .tableOfConSec:visited {
+     color: white;
+     text-decoration: none;
+     background-color: blue;
+     border: 1px solid black;
+   }
+   .tableOfConSec:hover{
+     background-color: magenta;
+   }
+    .tableOfConSec:active{
+  background-color: yellow;
+  color: black;
+   }
+   .basicinfo1{
+ background-color: Green;
+ color:azure;
+ 
+   }
+   .childhood1{
+ background-color: rgb(213, 122, 122);
+ color:rgb(10, 22, 26);
+
+   }
+   .school1{
+ color: rgb(211, 239, 33);
+   }
+ .afterschool1{
+background-color:bisque;
+color:black;
+
+ }
+ .university1{
+background-color: green;
+color: yellow;    
+
+
+ }
+   h2{
+
+     text-align: center;
+   }
+   h1{
+  text-align:center;
+  font-size: 22px;
+   }
+   h4{
+     font-style: italic;
+
+   }
+   h3{
+     text-align: center;
+     
+
+   }
+article{
+font-size:120%;
+
+}
+.tableOfConSec{
+ font-size:144%;
+}  
+.linktext{
+font-size:bold;
+}
+.Dozmisty{
+font-size:bold;
+}
+.up{
+text-transform: uppercase;
+}
+#school{
+  color:black;
+}
+
+/*Пр 6  */    
+/* У шкільних роках я змінив контрасність, бо вона була не правильною  */
+article {
+  border: 1px double black;
+  margin: 10px;
+  
+}
+
+
+.Dozmisty{
+color: black;
+}
+
+.linktext2 {
+  color:black;
+}
+.linktext3{
+  color:black;
+}
+
+.linktext4 {
+  color: black;
+}
+
+.linktext5 {
+  color: yellow;
+  
+}
+.block1 {
+  background-color: green;
+}
+.block2{
+  background-color:rgb(213, 122, 122)
+}
+.block3{
+  background-color: grey;
+}
+.block4 {
+  background-color: bisque;
+}
+.block5 {
+  background-color: green;
+}
+
+@media (min-width:992px){               /* desktop */
+ /* Вибачте я не розумію як правильно користуватися 12 column resp layout, а бутстрап це вже точно не по правилах  */
+.block_all {
+  display: grid;
+flex-wrap: wrap;
+  grid-template-columns: repeat(3,500px) ;
+}
+.col-lg-1   .col-lg-2   .col-lg-3 .col-lg-4   .col-lg-5  {
+  margin: auto;
+}
+}
+
+/* tablet */
+@media (min-width:768px) and (max-width:992px){  
+  .block_all {
+    display: grid;
+flex-wrap: wrap;
+  grid-template-columns: repeat(2,500px) ;
+  }
+  
+}
+/* mobile */
+@media (max-width: 768px){
+  .block_all{ 
+display: block;
+  }
+}

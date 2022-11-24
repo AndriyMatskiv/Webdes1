@@ -1,0 +1,49 @@
+.up{
+    font-style:italic;
+    }
+    h2{
+    text-align: center;
+    }
+    .zobrypapci{
+    text-align: center;
+    font-size: 70%;
+    }
+    .zobr{
+      text-align: center;
+      font-size: 113%;
+    }
+    .abvs{
+    text-align: center;
+    font-size: 139%;
+    }
+    img{
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    }
+    @media (max-width:768px) {
+  .row {
+    display: block;
+  
+  }
+    }
+    @media (min-width:768px) and (max-width:992px) {
+      .row {
+  flex-direction: row;
+  float: center;
+  display: grid;
+  grid-template-columns: repeat(2,500px);
+  }
+    }
+    @media (min-width:992px){ 
+    .row  
+   {   
+     justify-content: space-between; 
+       
+    display: grid;
+    grid-template-columns: 200px 200px 50px;
+
+  }  
+ 
+
+    }
