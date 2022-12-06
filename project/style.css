@@ -1,0 +1,111 @@
+
+
+h1 {text-align: center;
+font-family: 'Quicksand',sans-serif;}
+h2 {text-align: center;
+    font-family: 'Quicksand',sans-serif;}
+h3 {text-align: center;}
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.block1 { background-color: aquamarine;
+    position: relative;
+    padding: 8px;
+    height: 250px;
+    
+   
+}
+.block2 {
+background-color: blanchedalmond;
+position: relative;
+padding: 8px;
+height: 250px;
+}
+.block3 {
+background-color: rgb(88, 194, 88);
+position: relative;
+height: 250px;
+padding: 8px;
+
+}
+.block4 {
+    background-color:plum;
+    position: relative;
+    text-align: center;
+    height: 250px;
+    padding: 8px;
+} 
+.blocka {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 1px solid black;
+    
+    background-color: grey;
+    font-size: 120%;
+    
+}
+.font {
+    font-family:   'Roboto',sans-serif, italic;
+}
+.font2 {
+    font-family: 'Oswald',sans-serif;
+}
+* {
+    margin: 0;
+  
+}
+.pad{
+    padding: 5px 0;
+}
+
+.zobr {
+    width: inherit;
+}
+
+ @media (max-width: 768px) 
+{
+    head {display: block;}
+
+
+}
+
+@media  (min-width: 1200px)
+{
+.blockfull 
+ {display: flex;
+    justify-content:space-between;
+    }
+    .block1, .block2, .block3, .block4{
+        width: 250px;
+        
+    }
+
+} 
+@media (min-width:768px) and (max-width:992px){
+.blockfull { 
+    width: 100%;
+    display: grid;
+    grid-gap:20px;
+    
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+}
+@media (min-width:992px) and (max-width:1200px) {
+ .blockfull {
+
+    display: grid;
+    width: 100%;
+    grid-gap:10px;
+    
+    grid-template-columns: repeat(3,1fr);
+} 
+
+
+    
+}
+
+
