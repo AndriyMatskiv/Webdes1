@@ -15,5 +15,11 @@ margin: auto;
 min-width: 50%;
 min-height: 50%;
 
-
 }
+@media  (min-width: 720px) {
+ body {
+background-image: url(1280x720.jpg);
+
+ }
+
+} 
