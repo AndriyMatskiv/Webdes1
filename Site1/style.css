@@ -1,0 +1,38 @@
+
+.bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    min-width: 200%;
+    min-height: 200%;
+    
+}
+.bg img {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+min-width: 50%;
+min-height: 50%;
+}
+.centered {
+    border-radius: 10px;
+    border: solid 2px rgb(rgb(9, 12, 43), rgb(12, 55, 12), rgb(37, 37, 43));
+    /* background-color: aliceblue; */
+    color: black;
+    margin: 5px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+@media (max-width: 800px) {
+    body{
+        background-image: url(Phone\ Wallpaper.png);
+        font-size: 18px;
+    }
+}
